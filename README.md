@@ -29,6 +29,13 @@ Now let us configure The Things Network settings using the following steps:
 
 This completes the TTN setup.
 
+Lets upload code to the IoT device now using the followng steps:
+
+1. Download [Arduino IDE](https://www.arduino.cc/en/software).
+2. Follow setup instructions [here](https://docs.heltec.org/en/node/cubecell/quick_start.html) to setup LoRaWAN parameters and the IoT board parameters.
+3. Set DevEUI, AppEUI and AppKey.
+4. Upload code to device to get an active tracker.
+
 Now lets build the app.
 
 1. Clone `git clone git@github.com:meetcshah19/erick-app.git`.
