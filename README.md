@@ -26,6 +26,7 @@ Now let us configure The Things Network settings using the following steps:
 4. Generate DevEUI and APP key and register end device.
 5. Now go to Integrations/Webhooks and create a new one. Use base url : `http://IP:4000/save_erick_data` and check all events. 
 6. Create the webhook.
+7. Go to Payload formatters and add an uplink payload formatter as given in payload_formatter.js.
 
 This completes the TTN setup.
 
